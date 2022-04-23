@@ -6,7 +6,7 @@ const port=3000;
 //creamos un endpoint para obtener todos los usuarios
 app.get('/v1/explorers', (req, res) => {
     console.log(`Api explorers GET ALL request ${new Date()}`);
-    
+
     const explorer1 = {
         id: 1,
         name: 'Explorer 1'
@@ -24,7 +24,15 @@ app.get('/v1/explorers', (req, res) => {
 
     res.status(200).send(explorers);
 });
-
+//creamos un endpoint para obtener un usuario
+app.get('/v1/explorers/:id', (req, res) => {
+          const explorer1 = {
+            id: 1,
+            name: 'Explorer 1'
+          }
+            //aqui enviamos la respuesta usamos como codigo de estado 200
+            res.status(200).json(explorer1);
+        });   
 
 
 
