@@ -45,6 +45,13 @@ app.put('/v1/explorers/:id', (req, res) => {
     const requestBody = req.body;//para metros del ciente
     res.status(200).json({message:"Updated"});
 })
+//aqui eliminamos un usuario
+app.delete('/v1/explorers/:id', (req, res) => {
+    console.log(`Api explorers DELETE request ${new Date()}`);
+    const requestBody = req.body;//para metros del ciente
+    res.status(200).json({message:"Deleted"});
+})
+
 //iniciamos el servidor
 app.listen(port,()=>{
     console.log(`Server is running on port ${port}`);
