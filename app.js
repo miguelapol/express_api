@@ -39,7 +39,12 @@ app.post('/v1/explorers', (req, res) => {
     const requestBody = req.body;//para metros del ciente
     res.status(201).json({message:"Created"});
 })
-
+//aqui modificamos para actualizaremos un usuario
+app.put('/v1/explorers/:id', (req, res) => {
+    console.log(`Api explorers PUT request ${new Date()}`);
+    const requestBody = req.body;//para metros del ciente
+    res.status(200).json({message:"Updated"});
+})
 //iniciamos el servidor
 app.listen(port,()=>{
     console.log(`Server is running on port ${port}`);
