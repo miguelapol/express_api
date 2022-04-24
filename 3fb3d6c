@@ -1,0 +1,23 @@
+[33mcommit 14a3f7c0c59297f3571b09425644e1196870102b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: miguelapol <apolonio1995@gmail.com>
+Date:   Sat Apr 23 16:07:43 2022 -0500
+
+    Aqui lo creamos para obtener Ãla info de n solo usuario
+
+[33mcommit 05b5d3ade0eaf624120a7ea45ad3c4e00eeccc55[m
+Author: miguelapol <apolonio1995@gmail.com>
+Date:   Sat Apr 23 15:59:58 2022 -0500
+
+    AA2 creamos un endpoint para obtener los usuarios la cualÃ creamos varios objetos para luego obtener
+
+[33mcommit 3fb3d6cd87e29cd10dc9f930d94d01a74406cf0e[m
+Author: miguelapol <apolonio1995@gmail.com>
+Date:   Sat Apr 23 15:27:18 2022 -0500
+
+    A1. aqui añadimos el express para comenzar inicializar el puerto
+
+[33mcommit a6603e825682ceb3c6c3755c27d9083991705b18[m
+Author: miguelapol <apolonio1995@gmail.com>
+Date:   Sat Apr 23 15:22:00 2022 -0500
+
+    Añadimos los archivos necesarios creando los archivos respectivos

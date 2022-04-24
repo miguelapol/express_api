@@ -33,8 +33,12 @@ app.get('/v1/explorers/:id', (req, res) => {
             //aqui enviamos la respuesta usamos como codigo de estado 200
             res.status(200).json(explorer1);
         });   
-
-
+//creamos un endpoint para crear un usuario usando POST para crear un usuario
+app.post('/v1/explorers', (req, res) => {
+    console.log(`Api explorers POST request ${new Date()}`);
+    const requestBody = req.body;//para metros del ciente
+    res.status(201).json({message:"Created"});
+})
 
 //iniciamos el servidor
 app.listen(port,()=>{
